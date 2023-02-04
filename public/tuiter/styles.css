@@ -1,0 +1,34 @@
+.wd-bg-color-black {
+    background: black;
+}
+
+.wd-div-borders {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.wd-graded-out-font-color {
+    color: rgb(110, 118, 125);
+}
+
+.wd-white-font-color {
+    color: white;
+}
+
+.wd-font-13 {
+    font-size: 13px;
+}
+
+.wd-font-15 {
+    font-size: 15px;
+}
+
+.wd-padding-right-12 {
+    padding-right: 12px;
+}
+
+.wd-color-red{
+    color:red;
+}

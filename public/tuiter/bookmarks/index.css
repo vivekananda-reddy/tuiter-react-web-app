@@ -1,0 +1,72 @@
+.wd-main-layout {
+    width: 600px;
+    margin:auto;
+    font-family: sans-serif;
+}
+
+.wd-div-padding {
+    padding: 12px 16px;
+}
+
+.wd-title-div {
+    font-size: 20px;
+}
+
+.wd-three-blue-dots {
+    float:right;
+    color: blue;
+}
+.wd-three-dots {
+    float:right;
+    color: grey;
+}
+
+
+
+/*Post formatting*/
+.wd-profile-image {
+    float: left;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.wd-post-content-div {
+    margin-left: 60px;
+    width: 506px;
+}
+
+.wd-post-text {
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+.wd-image-plus-content{
+    border-radius: 20px;
+}
+
+.wd-post-image-div {
+    width: 504px;
+    height: 264px;
+}
+.wd-post-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-image-text {
+    padding: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-icons {
+    padding-top: 12px;
+}
+
+.wd-icon-text-pair {
+    margin-right: 70px;
+    text-decoration: none;
+}
