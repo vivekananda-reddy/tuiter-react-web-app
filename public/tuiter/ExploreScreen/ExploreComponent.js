@@ -5,7 +5,7 @@ const ExploreComponent = () => {
             <div class="row">
                     <div class="col-sm-11 col-lg-10 col-xl-11">
                       <div class="input-group">
-                            <span id="search-button" class="input-group-text bg-transparent border-end-0 rounded-5 rounded-end">
+                            <span id="search-button" class="input-group-text wd-graded-out-font-color bg-white border-end-0 rounded-5 rounded-end">
                                 <i class="fas fa-search"></i>
                             </span>
                         <input id="search-input" type="text" placeholder="Search Twitter"
@@ -46,7 +46,7 @@ const ExploreComponent = () => {
                   <div class="card text-white rounded-0">
                     <img src="../../images/starship.webp" class="card-img rounded-0">
                     <div class="card-img-overlay d-flex align-items-end p-0">
-                      <h1 class="card-title ms-2">SpaceX's Starship</h1>
+                      <h2 class="card-title ms-2 text-black">SpaceX's Starship</h2>
                     </div>
                   </div>
                 </div>

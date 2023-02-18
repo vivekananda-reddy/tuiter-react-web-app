@@ -7,7 +7,7 @@ export default function PostSummaryItem(post) {
                 ${(post.topic)?
                         `<div class="row">
                             <div class="col">
-                                <span class="text-muted">${post.topic}</span>
+                                <span class="wd-graded-out-font-color">${post.topic}</span>
                             </div>
                         </div>`
                   :
@@ -19,7 +19,7 @@ export default function PostSummaryItem(post) {
                       <div class="col">
                           <span class="fw-bold">${post.userName}</span>
                           <span><i class="fa-solid fa-circle-check"></i></span>
-                          <span class="text-muted"> - ${post.time}</span>
+                          <span class="wd-graded-out-font-color"> - ${post.time}</span>
                       </div>
                   </div>`
                                   :
@@ -41,7 +41,7 @@ export default function PostSummaryItem(post) {
                 ${(post.tweets) ?
                   `<div class="row">
                       <div class="col">
-                          <span class="text-muted">${post.tweets} Tweets</span>
+                          <span class="wd-graded-out-font-color">${post.tweets} Tweets</span>
                       </div>
                   </div>`
                                 :
