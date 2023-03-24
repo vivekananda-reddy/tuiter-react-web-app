@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 
-const NavigationSidebar = () => {
+const NavigationSidebar = ({defaultPage}) => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
-    const active = paths[2];
+    const active = (paths[2]==='')? defaultPage:paths[2];
     return(
         <>
             <div className="list-group col-sm-8 col-xl-12">
