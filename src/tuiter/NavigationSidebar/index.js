@@ -39,10 +39,11 @@ const NavigationSidebar = ({defaultPage}) => {
                   <span><i className="fa-solid fa-list"></i></span>
                   <span className="d-none d-xl-inline"> Lists</span>
                 </a>
-                <a href="" className={`list-group-item list-group-item-action ${(active === 'profile')? `active`:''}`}>
+
+                <Link to="/tuiter/profile" className={`list-group-item list-group-item-action ${(active === 'profile' || active === 'edit-profile')? `active`:''}`}>
                   <span><i className="fa-solid fa-user "></i></span>
                   <span className="d-none d-xl-inline"> Profile</span>
-                </a>
+                </Link>
                 <a href="" className={`list-group-item list-group-item-action ${(active === 'more')? `active`:''}`}>
                                 <span className="fa-stack wd-resize-icon">
                                     <i className="fa-solid fa-circle fa-stack-1x"></i>

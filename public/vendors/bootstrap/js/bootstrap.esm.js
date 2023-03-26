@@ -7,7 +7,7 @@ import * as Popper from '@popperjs/core';
 
 /**
  * --------------------------------------------------------------------------
- * Bootstrap (v5.2.3): util/index.js
+ * Bootstrap (v5.2.3): util/edit-profile.js
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */

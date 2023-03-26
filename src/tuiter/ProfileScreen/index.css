@@ -1,0 +1,14 @@
+.wd-profilePic {
+    margin-top: -50px;
+    width: 100px;
+    height:100px;
+}
+
+.wd-profilePic-blur {
+    filter: blur(1px);
+}
+
+
+.wd-banner-edit {
+    filter: blur(2px);
+}
