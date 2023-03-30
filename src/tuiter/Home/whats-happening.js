@@ -6,8 +6,26 @@ import {createTuitThunk} from "../../services/tuits-thunks";
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
+    const currentUser = {
+        "userName": "NASA",
+        "handle": "@nasa",
+        "image": "../../../images/nasa.png",
+    };
+
+    const templateTuit = {
+        ...currentUser,
+        "topic": "Space",
+        "time": "2h",
+        "liked": false,
+        "disliked": false,
+        "replies": 0,
+        "retuits": 0,
+        "likes": 0,
+        "dislikes": 0
+    }
     const tuitClickHandler = () => {
         const newTuit = {
+            ...templateTuit,
             tuit: whatsHappening
         }
         dispatch(createTuitThunk(newTuit));
