@@ -13,7 +13,7 @@ import profileReducer from "./ProfileScreen/profileReducer";
 import EditProfileComponent from "./ProfileScreen/edit-profile";
 
 
-const store = configureStore({reducer: {who: whoReducer, tuits: tuitsReducer, profile:profileReducer}});
+const store = configureStore({reducer: {who: whoReducer, tuitsData: tuitsReducer, profile:profileReducer}});
 
 function Tuiter() {
     return(
