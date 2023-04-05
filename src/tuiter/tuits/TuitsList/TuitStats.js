@@ -50,7 +50,7 @@ export default function TuitStats({tuit}) {
     }
     return (
         <div className="row wd-graded-out-font-color mt-3">
-            <div className="col-2">
+            <div className="col-2 me-2">
                 <span className="me-2">
                        <i className="fa-regular fa-comment"></i>
                 </span>
@@ -58,7 +58,7 @@ export default function TuitStats({tuit}) {
                 <span>{tuitStats.replies}</span>
 
             </div>
-            <div className="col-2">
+            <div className="col-2 me-2">
 
                 <span className="me-2">
                        <i className="fa-solid fa-retweet"></i>
@@ -66,14 +66,14 @@ export default function TuitStats({tuit}) {
                 <span>{tuitStats.retuits}</span>
 
             </div>
-            <div className="col-2">
+            <div className="col-2 me-2">
                 <span className="me-2" onClick={() => likeToggle(tuitStats)}>
                        <i className={`fa-heart ${(tuitStats.liked)? "text-danger fa-solid": 'fa-regular'}`} ></i>
                 </span>
                 <span>{tuitStats.likes}</span>
 
             </div>
-            <div className="col-2">
+            <div className="col-2 me-2">
                 <span className="me-2" onClick={() => dislikeToggle(tuitStats)}>
                        <i className={`${(tuitStats.disliked)? "fa-solid": 'fa-regular'} fa-thumbs-down`} ></i>
                 </span>
